@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+
+.logo {
+  height: auto;
+  width: 25%;
+  padding-left: 3vh;
+  padding-top: 2vh;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 3vh;
+}
+
+.section2 {
+  position: relative;
+  text-align: center;
+
+}
+
+.section2-image {
+  height: 50vh;
+  width: 100%;
+}
+
+.section2-text {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section3{
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section3-image {
+  padding: 5vh;
+  padding-top: 2vh;
+}
+
+.section3-item {
+  padding: 3vh;
+  width: 30%;
+}
